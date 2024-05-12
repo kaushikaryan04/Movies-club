@@ -1,0 +1,73 @@
+.movie-detail-page {
+    color: #fff;
+    background-color: #222;
+    padding: 20px;
+}
+.movie-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.movie-image {
+
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.movie-details {
+    margin-bottom: 20px;
+}
+
+.movie-rating,
+.movie-genre {
+    margin: 5px 0;
+}
+
+.movie-description {
+    line-height: 1.5;
+}
+
+.trailer-section,
+.server-section,
+.download-section {
+    margin-top: 30px;
+}
+
+.youtube-trailer {
+    width: 100%;
+    height: 400px;
+}
+
+.server-list {
+    list-style: none;
+    padding: 0;
+}
+
+.server-list li {
+
+    margin: 10px;
+}
+.server-list a {
+    text-decoration: none;
+    /* background-color: #007bff; */
+    padding: 10px;
+    color: white;
+}
+.server-list a:hover {
+    background-color: #0056b3;
+}
+
+.torrent-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.torrent-link:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,64 @@
+/* App.css */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.search-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-color: #1a1a1a; */
+    background-image: url('bg-img.jpeg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Header.css */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* SearchBar.css */
+.search-bar {
+    text-align: center;
+}
+
+.search-input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #45a049;
+}

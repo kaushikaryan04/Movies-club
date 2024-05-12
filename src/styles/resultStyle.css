@@ -1,0 +1,15 @@
+.movie-page {
+    widht: 100vh;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #1a1a1a;
+}
+.heading {
+    margin: 0;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+}
