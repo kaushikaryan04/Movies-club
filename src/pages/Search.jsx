@@ -21,7 +21,7 @@ const Search = () => {
         var tempMovies = data.data.data.movies;
 
         setMovies(tempMovies);
-        navigate("/result", { state: { movies: tempMovies } });
+        navigate("/result", { state: { movies: tempMovies , details : data.data.data , searchterm :searchTerm } });
         // console.log(movies);
       })
       .catch((err) => {
